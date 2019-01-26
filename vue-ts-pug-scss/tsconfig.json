@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "allowJs": true,
+        "baseUrl": "./src",
+        "lib": [
+            "dom",
+            "es5",
+            "es2015.promise"
+        ],
+        "types": ["jquery"]
+    },
+    "include": ["./src/**/*.ts"],
+}
