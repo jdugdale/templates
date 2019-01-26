@@ -21,7 +21,6 @@
     "vue-template-compiler": "^2.5.22"
   },
   "devDependencies": {
-    "bootstrap-datepicker-webpack": "^1.7.0-dev",
     "clean-webpack-plugin": "^1.0.1",
     "css-loader": "^2.1.0",
     "html-webpack-plugin": "^3.2.0",
