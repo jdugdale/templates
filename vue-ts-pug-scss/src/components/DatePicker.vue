@@ -2,12 +2,12 @@
     usage: date-picker(v-model="date")
 -->
 <template lang="pug">
-    datepicker(:placeholder="placeholder", :formt="format", :value="initial", @input="$emit('input', $event)")
+    datepicker(:placeholder="placeholder", :format="format", :value="initial", @input="$emit('input', $event)")
 </template>
 <script lang="ts">
 import Vue from 'vue'
 import { Component, Prop } from "vue-property-decorator";
-import Datepicker from 'vuejs-datepicker/src/components/Datepicker.vue';
+import Datepicker from 'vuejs-datepicker/dist/vuejs-datepicker.esm.js';
 
 declare var $:any;
 

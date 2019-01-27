@@ -1,6 +1,6 @@
 import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
-import { Vue, Component } from 'vue-property-decorator';
+import { Vue } from 'vue-property-decorator';
 import VueRouter from 'vue-router';
 import routes from './routes';
 import './style.scss';
