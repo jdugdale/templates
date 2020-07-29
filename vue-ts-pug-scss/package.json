@@ -13,7 +13,7 @@
   "dependencies": {
     "@types/jquery": "^3.3.29",
     "@types/lodash": "^4.14.120",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
     "vue": "^2.5.22",
