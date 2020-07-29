@@ -1,7 +1,7 @@
 const path = require('path');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const webpack = require('webpack');
 const moment = require('moment');
 
@@ -43,6 +43,6 @@ module.exports = {
             template: './src/assets/index.html',
             templateParameters: () => { return { version: moment().utc().format('YYYYMMDD.HHmm') }; }
         }),
-        new CleanWebpackPlugin(['dist'])
+        new CleanWebpackPlugin()
     ]
 };
